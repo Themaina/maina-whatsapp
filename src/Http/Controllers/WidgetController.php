@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Services\WhatsappService;
 
 class WidgetController extends BaseController
 {

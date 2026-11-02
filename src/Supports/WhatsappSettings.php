@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Supports;
+namespace Maina888\Whatsapp\Supports;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Support\Facades\Crypt;

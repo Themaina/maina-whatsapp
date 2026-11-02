@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Forms;
+namespace Maina888\Whatsapp\Forms;
 
 use Botble\Base\Forms\FieldOptions\AlertFieldOption;
 use Botble\Base\Forms\FieldOptions\CheckboxFieldOption;
@@ -12,9 +12,9 @@ use Botble\Base\Forms\Fields\OnOffCheckboxField;
 use Botble\Base\Forms\Fields\PasswordField;
 use Botble\Base\Forms\Fields\TextField;
 use Botble\Setting\Forms\SettingForm;
-use MainaSuperintelligence\Whatsapp\Http\Requests\Settings\WhatsappSettingRequest;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Http\Requests\Settings\WhatsappSettingRequest;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 
 class WhatsappSettingForm extends SettingForm
 {

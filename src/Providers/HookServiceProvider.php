@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Providers;
+namespace Maina888\Whatsapp\Providers;
 
 use Botble\Dashboard\Events\RenderingDashboardWidgets;
 use Botble\Dashboard\Supports\DashboardWidgetInstance;

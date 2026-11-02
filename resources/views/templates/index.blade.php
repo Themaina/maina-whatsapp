@@ -90,7 +90,7 @@
                                             @if ($definition['preview'])
                                                 <details class="small mt-1">
                                                     <summary>{{ trans('plugins/whatsapp::whatsapp.templates.suggested_text') }}</summary>
-                                                    <div class="text-muted mt-1" style="white-space: pre-wrap">{{ \MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry::placeholderPreview($definition) }}</div>
+                                                    <div class="text-muted mt-1" style="white-space: pre-wrap">{{ \Maina888\Whatsapp\Supports\TemplateRegistry::placeholderPreview($definition) }}</div>
                                                 </details>
                                             @endif
                                         </td>

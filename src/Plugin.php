@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp;
+namespace Maina888\Whatsapp;
 
 use Botble\PluginManagement\Abstracts\PluginOperationAbstract;
 use Botble\Setting\Facades\Setting;

@@ -1,11 +1,11 @@
 {
     "id": "maina888/whatsapp",
     "name": "WhatsApp Business Cloud API",
-    "namespace": "MainaSuperintelligence\\Whatsapp\\",
-    "provider": "MainaSuperintelligence\\Whatsapp\\Providers\\WhatsappServiceProvider",
-    "author": "Maina 888",
-    "url": "https://github.com/Themaina/maina-whatsapp",
-    "version": "1.1.0",
+    "namespace": "Maina888\\Whatsapp\\",
+    "provider": "Maina888\\Whatsapp\\Providers\\WhatsappServiceProvider",
+    "author": "maina888",
+    "url": "https://mainax.vercel.app",
+    "version": "1.1.1",
     "description": "Send order notifications over the official Meta WhatsApp Business Cloud API: approved templates, a two-way inbox, delivery and read receipts, STOP/START opt-out and an optional SMS fallback through the SMS via Africa's Talking plugin.",
     "minimum_core_version": "7.3.0"
 }

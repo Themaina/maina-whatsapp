@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Unit;
+namespace Maina888\Whatsapp\Tests\Unit;
 
-use MainaSuperintelligence\Whatsapp\Supports\PhoneNumber;
+use Maina888\Whatsapp\Supports\PhoneNumber;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

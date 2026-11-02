@@ -1,19 +1,19 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Services;
+namespace Maina888\Whatsapp\Services;
 
 use Botble\Base\Facades\BaseHelper;
-use MainaSuperintelligence\Whatsapp\Enums\MessageDirectionEnum;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappMessageFailed;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappMessageSent;
-use MainaSuperintelligence\Whatsapp\Jobs\SendWhatsappMessageJob;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappTemplate;
-use MainaSuperintelligence\Whatsapp\Supports\PhoneNumber;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Enums\MessageDirectionEnum;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Events\WhatsappMessageFailed;
+use Maina888\Whatsapp\Events\WhatsappMessageSent;
+use Maina888\Whatsapp\Jobs\SendWhatsappMessageJob;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Models\WhatsappTemplate;
+use Maina888\Whatsapp\Supports\PhoneNumber;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Carbon\Carbon;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Database\Eloquent\Model;
@@ -330,7 +330,7 @@ class WhatsappService
                 'related' => $message->related_type && $message->related_id ? $message->related : null,
             ]);
 
-            $log = app(\MainaSuperintelligence\Sms\Services\SmsService::class)->send(
+            $log = app(\Maina888\Sms\Services\SmsService::class)->send(
                 '+' . ltrim($message->phone, '+'),
                 $text,
                 $smsContext,
@@ -367,7 +367,7 @@ class WhatsappService
     {
         return function_exists('is_plugin_active')
             && is_plugin_active('sms')
-            && class_exists(\MainaSuperintelligence\Sms\Services\SmsService::class);
+            && class_exists(\Maina888\Sms\Services\SmsService::class);
     }
 
     public function isWithinWindow(string $phone): bool
@@ -677,7 +677,7 @@ class WhatsappService
 
         if ($message->template_key && $this->smsHasTemplate($message->template_key)) {
             try {
-                $rendered = trim((string) app(\MainaSuperintelligence\Sms\Services\SmsService::class)
+                $rendered = trim((string) app(\Maina888\Sms\Services\SmsService::class)
                     ->renderTemplate($message->template_key, (array) Arr::get($context, 'vars', [])));
 
                 if ($rendered !== '') {
@@ -693,7 +693,7 @@ class WhatsappService
 
     protected function smsHasTemplate(string $key): bool
     {
-        if (! method_exists(\MainaSuperintelligence\Sms\Services\SmsService::class, 'renderTemplate')) {
+        if (! method_exists(\Maina888\Sms\Services\SmsService::class, 'renderTemplate')) {
             return false;
         }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Exceptions;
+namespace Maina888\Whatsapp\Exceptions;
 
 use RuntimeException;
 

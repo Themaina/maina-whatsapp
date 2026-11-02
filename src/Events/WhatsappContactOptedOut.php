@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Events;
+namespace Maina888\Whatsapp\Events;
 
 use Botble\Base\Events\Event;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappContact;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 

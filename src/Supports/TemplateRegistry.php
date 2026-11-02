@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Supports;
+namespace Maina888\Whatsapp\Supports;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

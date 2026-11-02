@@ -1,12 +1,12 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappContactOptedOut;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Tables\ContactTable;
+use Maina888\Whatsapp\Events\WhatsappContactOptedOut;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Tables\ContactTable;
 use Carbon\Carbon;
 
 class ContactController extends BaseController

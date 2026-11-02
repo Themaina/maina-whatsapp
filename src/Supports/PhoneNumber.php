@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Supports;
+namespace Maina888\Whatsapp\Supports;
 
 /**
  * Normalises phone numbers to the format the Cloud API expects: country code + number,

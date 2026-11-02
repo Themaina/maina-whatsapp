@@ -1,15 +1,15 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
 use Botble\Setting\Facades\Setting;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappTemplate;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Models\WhatsappTemplate;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Throwable;

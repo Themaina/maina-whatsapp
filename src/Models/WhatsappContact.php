@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Models;
+namespace Maina888\Whatsapp\Models;
 
 use Botble\Base\Casts\SafeContent;
 use Botble\Base\Models\BaseModel;

@@ -1,15 +1,15 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Listeners;
+namespace Maina888\Whatsapp\Listeners;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Ecommerce\Events\OrderCompletedEvent;
 use Botble\Ecommerce\Events\OrderConfirmedEvent;
 use Botble\Ecommerce\Events\OrderPaymentConfirmedEvent;
 use Botble\Ecommerce\Models\Order;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Throwable;
 
 /**
@@ -58,7 +58,7 @@ class SendOrderWhatsappNotification
         }
 
         // The same event can fire more than once (e.g. re-confirming); send each notification once per order.
-        $alreadySent = \MainaSuperintelligence\Whatsapp\Models\WhatsappMessage::query()
+        $alreadySent = \Maina888\Whatsapp\Models\WhatsappMessage::query()
             ->where('template_key', $key)
             ->where('related_type', $order->getMorphClass())
             ->where('related_id', $order->getKey())

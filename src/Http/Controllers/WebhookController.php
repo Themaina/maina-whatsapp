@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Facades\BaseHelper;
-use MainaSuperintelligence\Whatsapp\Services\WebhookProcessor;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Services\WebhookProcessor;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

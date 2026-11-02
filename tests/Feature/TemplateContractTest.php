@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Feature;
+namespace Maina888\Whatsapp\Tests\Feature;
 
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
-use MainaSuperintelligence\Whatsapp\Tests\WhatsappTestCase;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Tests\WhatsappTestCase;
 use ReflectionMethod;
 
 require_once __DIR__ . '/../bootstrap.php';

@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Models;
+namespace Maina888\Whatsapp\Models;
 
 use Botble\Base\Models\BaseModel;
-use MainaSuperintelligence\Whatsapp\Enums\MessageDirectionEnum;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Enums\MessageDirectionEnum;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

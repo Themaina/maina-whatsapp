@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Supports;
+namespace Maina888\Whatsapp\Supports;
 
 /**
  * Templates that ship with the plugin: the ecommerce order events (registered when ecommerce is

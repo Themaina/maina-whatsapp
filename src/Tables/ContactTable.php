@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tables;
+namespace Maina888\Whatsapp\Tables;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Table\Abstracts\TableAbstract;
@@ -9,7 +9,7 @@ use Botble\Table\Columns\CreatedAtColumn;
 use Botble\Table\Columns\FormattedColumn;
 use Botble\Table\Columns\IdColumn;
 use Botble\Table\Columns\YesNoColumn;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappContact;
 use Illuminate\Database\Eloquent\Builder;
 
 class ContactTable extends TableAbstract

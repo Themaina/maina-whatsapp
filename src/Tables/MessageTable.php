@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tables;
+namespace Maina888\Whatsapp\Tables;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Table\Abstracts\TableAbstract;
@@ -9,10 +9,10 @@ use Botble\Table\Columns\CreatedAtColumn;
 use Botble\Table\Columns\EnumColumn;
 use Botble\Table\Columns\FormattedColumn;
 use Botble\Table\Columns\IdColumn;
-use MainaSuperintelligence\Whatsapp\Enums\MessageDirectionEnum;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Enums\MessageDirectionEnum;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

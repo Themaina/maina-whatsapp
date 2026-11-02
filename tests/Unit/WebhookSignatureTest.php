@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Unit;
+namespace Maina888\Whatsapp\Tests\Unit;
 
-use MainaSuperintelligence\Whatsapp\Services\WebhookProcessor;
+use Maina888\Whatsapp\Services\WebhookProcessor;
 use PHPUnit\Framework\TestCase;
 
 require_once __DIR__ . '/../bootstrap.php';

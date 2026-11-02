@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Services;
+namespace Maina888\Whatsapp\Services;
 
-use MainaSuperintelligence\Whatsapp\Exceptions\WhatsappException;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Exceptions\WhatsappException;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;

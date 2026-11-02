@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Jobs;
+namespace Maina888\Whatsapp\Jobs;
 
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Services\WhatsappService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

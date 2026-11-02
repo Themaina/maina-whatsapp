@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Feature;
+namespace Maina888\Whatsapp\Tests\Feature;
 
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Whatsapp\Jobs\SendWhatsappMessageJob;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Tests\WhatsappTestCase;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Whatsapp\Jobs\SendWhatsappMessageJob;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Tests\WhatsappTestCase;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Queue;
 use Mockery;

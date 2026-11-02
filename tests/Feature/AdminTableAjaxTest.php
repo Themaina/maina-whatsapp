@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Feature;
+namespace Maina888\Whatsapp\Tests\Feature;
 
 use Botble\ACL\Models\User;
 use Botble\ACL\Services\ActivateUserService;
-use MainaSuperintelligence\Whatsapp\Tests\WhatsappTestCase;
+use Maina888\Whatsapp\Tests\WhatsappTestCase;
 use Illuminate\Support\Str;
 use PHPUnit\Framework\Attributes\DataProvider;
 

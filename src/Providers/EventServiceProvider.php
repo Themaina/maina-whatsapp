@@ -1,11 +1,11 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Providers;
+namespace Maina888\Whatsapp\Providers;
 
 use Botble\Ecommerce\Events\OrderCompletedEvent;
 use Botble\Ecommerce\Events\OrderConfirmedEvent;
 use Botble\Ecommerce\Events\OrderPaymentConfirmedEvent;
-use MainaSuperintelligence\Whatsapp\Listeners\SendOrderWhatsappNotification;
+use Maina888\Whatsapp\Listeners\SendOrderWhatsappNotification;
 use Illuminate\Support\ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider

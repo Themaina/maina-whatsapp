@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 

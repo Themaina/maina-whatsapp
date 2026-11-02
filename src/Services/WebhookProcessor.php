@@ -1,15 +1,15 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Services;
+namespace Maina888\Whatsapp\Services;
 
-use MainaSuperintelligence\Whatsapp\Enums\MessageDirectionEnum;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappContactOptedOut;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappMessageReceived;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappMessageStatusUpdated;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Enums\MessageDirectionEnum;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Events\WhatsappContactOptedOut;
+use Maina888\Whatsapp\Events\WhatsappMessageReceived;
+use Maina888\Whatsapp\Events\WhatsappMessageStatusUpdated;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

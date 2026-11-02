@@ -1,7 +1,7 @@
 <?php
 
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Services\WhatsappService;
 
 if (! function_exists('whatsapp_send_template')) {
     /**

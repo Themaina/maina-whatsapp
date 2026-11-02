@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers;
+namespace Maina888\Whatsapp\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Whatsapp\Enums\MessageStatusEnum;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Enums\MessageStatusEnum;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Services\WhatsappService;
 use Illuminate\Http\Request;
 
 class InboxController extends BaseController

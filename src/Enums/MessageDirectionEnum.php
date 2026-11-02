@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Enums;
+namespace Maina888\Whatsapp\Enums;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Supports\Enum;

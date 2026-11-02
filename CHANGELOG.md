@@ -1,8 +1,13 @@
 # Changelog
 
+## 1.1.1
+- Made with passion by maina888: author and links now point to mainax.vercel.app.
+- PHP namespace is now `Maina888\Whatsapp`. Clear caches after updating (`php artisan optimize:clear`).
+- New "Support this project" section and GitHub Sponsor link.
+
 ## 1.1.0
 - First public release on the Botble Marketplace as **WhatsApp Business Cloud API**, free under the MIT License.
-- Vendor namespace is now `MainaSuperintelligence\Whatsapp` and the plugin id is `maina888/whatsapp`.
+- Vendor namespace is now `Maina888\Whatsapp` and the plugin id is `maina888/whatsapp`.
 - Works on any Botble shop: project-specific templates removed; the built-in templates are the ecommerce order notifications with neutral suggested text.
 - STOP/START confirmation messages use your site name.
 - New *Default country code* setting (falls back to the store country) instead of a fixed Kenyan default.

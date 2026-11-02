@@ -1,4 +1,4 @@
-# Marketplace listing copy (Maina 888)
+# Marketplace listing copy (maina888)
 
 **Name:** WhatsApp Business Cloud API
 **Tagline:** Order updates on WhatsApp with approved templates, a two-way inbox and SMS fallback.

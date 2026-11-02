@@ -1,14 +1,14 @@
 <?php
 
 use Botble\Base\Facades\AdminHelper;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\ContactController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\InboxController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\MessageController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\Settings\WhatsappSettingController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\TemplateController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\TestController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\WebhookController;
-use MainaSuperintelligence\Whatsapp\Http\Controllers\WidgetController;
+use Maina888\Whatsapp\Http\Controllers\ContactController;
+use Maina888\Whatsapp\Http\Controllers\InboxController;
+use Maina888\Whatsapp\Http\Controllers\MessageController;
+use Maina888\Whatsapp\Http\Controllers\Settings\WhatsappSettingController;
+use Maina888\Whatsapp\Http\Controllers\TemplateController;
+use Maina888\Whatsapp\Http\Controllers\TestController;
+use Maina888\Whatsapp\Http\Controllers\WebhookController;
+use Maina888\Whatsapp\Http\Controllers\WidgetController;
 use Illuminate\Support\Facades\Route;
 
 // Meta webhook: public, no session, no CSRF. POST requests are authenticated by X-Hub-Signature-256.

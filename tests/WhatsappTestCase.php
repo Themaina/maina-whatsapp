@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests;
+namespace Maina888\Whatsapp\Tests;
 
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;

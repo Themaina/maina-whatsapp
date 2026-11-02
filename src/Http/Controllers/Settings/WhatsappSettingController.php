@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Http\Controllers\Settings;
+namespace Maina888\Whatsapp\Http\Controllers\Settings;
 
 use Botble\Base\Http\Responses\BaseHttpResponse;
 use Botble\Base\Supports\Breadcrumb;
 use Botble\Setting\Http\Controllers\SettingController;
-use MainaSuperintelligence\Whatsapp\Forms\WhatsappSettingForm;
-use MainaSuperintelligence\Whatsapp\Http\Requests\Settings\WhatsappSettingRequest;
-use MainaSuperintelligence\Whatsapp\Supports\WhatsappSettings;
+use Maina888\Whatsapp\Forms\WhatsappSettingForm;
+use Maina888\Whatsapp\Http\Requests\Settings\WhatsappSettingRequest;
+use Maina888\Whatsapp\Supports\WhatsappSettings;
 use Illuminate\Support\Arr;
 
 class WhatsappSettingController extends SettingController

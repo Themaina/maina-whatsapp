@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Providers;
+namespace Maina888\Whatsapp\Providers;
 
 use Botble\Base\Facades\DashboardMenu;
 use Botble\Base\Facades\PanelSectionManager;
@@ -9,13 +9,13 @@ use Botble\Base\Supports\DashboardMenuItem;
 use Botble\Base\Supports\ServiceProvider;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
 use Botble\Setting\PanelSections\SettingOthersPanelSection;
-use MainaSuperintelligence\Whatsapp\Commands\SendTestCommand;
-use MainaSuperintelligence\Whatsapp\Commands\SyncTemplatesCommand;
-use MainaSuperintelligence\Whatsapp\Services\CloudApiClient;
-use MainaSuperintelligence\Whatsapp\Services\WebhookProcessor;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Supports\BuiltInTemplates;
-use MainaSuperintelligence\Whatsapp\Supports\TemplateRegistry;
+use Maina888\Whatsapp\Commands\SendTestCommand;
+use Maina888\Whatsapp\Commands\SyncTemplatesCommand;
+use Maina888\Whatsapp\Services\CloudApiClient;
+use Maina888\Whatsapp\Services\WebhookProcessor;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Supports\BuiltInTemplates;
+use Maina888\Whatsapp\Supports\TemplateRegistry;
 
 class WhatsappServiceProvider extends ServiceProvider
 {

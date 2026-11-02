@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Commands;
+namespace Maina888\Whatsapp\Commands;
 
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Services\WhatsappService;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 

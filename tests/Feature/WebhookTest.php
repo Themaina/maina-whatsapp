@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Whatsapp\Tests\Feature;
+namespace Maina888\Whatsapp\Tests\Feature;
 
-use MainaSuperintelligence\Whatsapp\Enums\MessageDirectionEnum;
-use MainaSuperintelligence\Whatsapp\Events\WhatsappMessageReceived;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappContact;
-use MainaSuperintelligence\Whatsapp\Models\WhatsappMessage;
-use MainaSuperintelligence\Whatsapp\Services\WhatsappService;
-use MainaSuperintelligence\Whatsapp\Tests\WhatsappTestCase;
+use Maina888\Whatsapp\Enums\MessageDirectionEnum;
+use Maina888\Whatsapp\Events\WhatsappMessageReceived;
+use Maina888\Whatsapp\Models\WhatsappContact;
+use Maina888\Whatsapp\Models\WhatsappMessage;
+use Maina888\Whatsapp\Services\WhatsappService;
+use Maina888\Whatsapp\Tests\WhatsappTestCase;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Event;
 
