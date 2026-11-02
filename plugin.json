@@ -1,0 +1,11 @@
+{
+    "id": "mainasuperintelligence/whatsapp",
+    "name": "WhatsApp Business Cloud API",
+    "namespace": "MainaSuperintelligence\\Whatsapp\\",
+    "provider": "MainaSuperintelligence\\Whatsapp\\Providers\\WhatsappServiceProvider",
+    "author": "Maina 888",
+    "url": "https://github.com/MainaSuperintelligence/botble-whatsapp",
+    "version": "1.1.0",
+    "description": "Send order notifications over the official Meta WhatsApp Business Cloud API: approved templates, a two-way inbox, delivery and read receipts, STOP/START opt-out and an optional SMS fallback through the SMS via Africa's Talking plugin.",
+    "minimum_core_version": "7.4.0"
+}
